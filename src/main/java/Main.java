@@ -3,16 +3,22 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        Object[] opcoes = {"Conversor de Moedas", "Conversor de Temperaturas"};
-        String entrada;
-        String escolha = (String) JOptionPane.showInputDialog(null, "Escolha o tipo de conversor", "Menu",
-                JOptionPane.INFORMATION_MESSAGE, null, opcoes, opcoes[0]);
+        int escolha;
+        do {
+            Object[] opcoes = {"Conversor de Moedas", "Conversor de Temperaturas"};
+            String entrada;
+            String conversorEscolhido = (String) JOptionPane.showInputDialog(null, "Escolha o tipo de conversor", "Menu",
+                    JOptionPane.INFORMATION_MESSAGE, null, opcoes, opcoes[0]);
 
-        if (escolha.equals("Conversor de Moedas")){
-            entrada = JOptionPane.showInputDialog(null, "Insira um valor", "Input",
-                    JOptionPane.QUESTION_MESSAGE);
-            validaEntrada(entrada);
-        }
+            if (conversorEscolhido.equals("Conversor de Moedas")){
+                entrada = JOptionPane.showInputDialog(null, "Insira um valor", "Input",
+                        JOptionPane.QUESTION_MESSAGE);
+                validaEntrada(entrada);
+            }
+
+            escolha = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "Escolha a opção",
+                    JOptionPane.YES_NO_OPTION);
+        }while (escolha == 0);
     }
 
     public static void validaEntrada(String entrada){
