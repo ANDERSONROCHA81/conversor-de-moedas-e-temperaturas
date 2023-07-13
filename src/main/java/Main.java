@@ -19,7 +19,7 @@ public class Main {
         double valor;
         if (entrada.matches("[0-9]*")){
             valor = Double.parseDouble(entrada);
-
+            ConversorDeMoedas.escolheTipoDeMoeda(valor);
         }else {
             JOptionPane.showMessageDialog(null, "A entrada deve ser apenas números");
         }
