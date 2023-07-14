@@ -13,7 +13,7 @@ public class ConversorDeMoedas {
 
         if (escolha.equals("Real para Dólar")) {
             resultado = valor / cotacaoDolar;
-            String mensagem = String.format("Agora voce Tem U$ %.2f dolares", resultado);
+            String mensagem = String.format("Agora voce tem U$ %.2f dolares", resultado);
             JOptionPane.showMessageDialog(null, mensagem);
         }
     }
