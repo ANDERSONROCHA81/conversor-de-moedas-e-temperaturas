@@ -5,6 +5,9 @@ public class ConversorDeMoedas {
     private static Object[] conversoes = {"Real para Dólar", "Real para Euro", "Real para Libra Esterlina",
             "Real para Peso Argentino", "Real para Peso Chileno"};
     private static double cotacaoDolar = 4.79;
+    private static double cotacaoEuro = 5.38;
+    private static double cotacaoLibraEsterlina = 6.27;
+    private static double cotacaoPesoArgentino = 0.018;
 
     public static void escolheTipoDeMoeda(double valor){
         double resultado;
@@ -13,7 +16,19 @@ public class ConversorDeMoedas {
 
         if (escolha.equals("Real para Dólar")) {
             resultado = valor / cotacaoDolar;
-            String mensagem = String.format("Agora voce tem U$ %.2f dolares", resultado);
+            String mensagem = String.format("Agora você tem U$ %.2f dolares", resultado);
+            JOptionPane.showMessageDialog(null, mensagem);
+        }else if (escolha.equals("Real para Euro")) {
+            resultado = valor / cotacaoEuro;
+            String mensagem = String.format("Agora você tem € %.2f euros", resultado);
+            JOptionPane.showMessageDialog(null, mensagem);
+        }else if (escolha.equals("Real para Libra Esterlina")) {
+            resultado = valor / cotacaoLibraEsterlina;
+            String mensagem = String.format("Agora você tem £ %.2f libras esterlinas", resultado);
+            JOptionPane.showMessageDialog(null, mensagem);
+        }else if (escolha.equals("Real para Peso Argentino")) {
+            resultado = valor / cotacaoPesoArgentino;
+            String mensagem = String.format("Agora você tem $ %.2f pesos argentinos", resultado);
             JOptionPane.showMessageDialog(null, mensagem);
         }
     }
