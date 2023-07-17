@@ -1,17 +1,22 @@
 import javax.swing.*;
 
 public class Main {
+    private static String conversorEscolhido;
     public static void main(String[] args) {
 
         int escolha;
         do {
             Object[] opcoes = {"Conversor de Moedas", "Conversor de Temperaturas"};
             String entrada;
-            String conversorEscolhido = (String) JOptionPane.showInputDialog(null, "Escolha o tipo de conversor", "Menu",
+            conversorEscolhido = (String) JOptionPane.showInputDialog(null, "Escolha o tipo de conversor", "Menu",
                     JOptionPane.PLAIN_MESSAGE, null, opcoes, opcoes[0]);
 
             if (conversorEscolhido.equals("Conversor de Moedas")){
                 entrada = JOptionPane.showInputDialog(null, "Insira um valor", "Input",
+                        JOptionPane.QUESTION_MESSAGE);
+                validaEntrada(entrada);
+            }else if (conversorEscolhido.equals("Conversor de Temperaturas")){
+                entrada = JOptionPane.showInputDialog(null, "Insira uma temperatura", "Input",
                         JOptionPane.QUESTION_MESSAGE);
                 validaEntrada(entrada);
             }
@@ -30,9 +35,12 @@ public class Main {
         double valor;
         if (!entrada.matches("[0-9]*") || entrada.isBlank()){
             JOptionPane.showMessageDialog(null, "A entrada deve conter apenas números");
-        }else {
+        }else if (conversorEscolhido.equals("Conversor de Moedas")){
             valor = Double.parseDouble(entrada);
             ConversorDeMoedas.escolheTipoDeMoeda(valor);
+        }else if (conversorEscolhido.equals("Conversor de Temperaturas")){
+            valor = Double.parseDouble(entrada);
+            ConversorDeTemperaturas.escolheTipoDeTemperatura(valor);
         }
     }
 }
