@@ -8,6 +8,7 @@ public class ConversorDeMoedas {
     private static double cotacaoEuro = 5.38;
     private static double cotacaoLibraEsterlina = 6.27;
     private static double cotacaoPesoArgentino = 0.018;
+    private static double cotacaoPesoChileno = 0.0059;
 
     public static void escolheTipoDeMoeda(double valor){
         double resultado;
@@ -33,6 +34,11 @@ public class ConversorDeMoedas {
             case "Real para Peso Argentino" -> {
                 resultado = valor / cotacaoPesoArgentino;
                 String mensagem = String.format("Agora você tem $ %.2f pesos argentinos", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Real para Peso Chileno" -> {
+                resultado = valor / cotacaoPesoChileno;
+                String mensagem = String.format("Agora você tem $ %.2f pesos chilenos", resultado);
                 JOptionPane.showMessageDialog(null, mensagem);
             }
         }
