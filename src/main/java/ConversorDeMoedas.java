@@ -3,7 +3,8 @@ import javax.swing.*;
 public class ConversorDeMoedas {
 
     private static Object[] conversoes = {"Real para Dólar", "Real para Euro", "Real para Libra Esterlina",
-            "Real para Peso Argentino", "Real para Peso Chileno"};
+            "Real para Peso Argentino", "Real para Peso Chileno", "Dólar para Real", "Euro para Real",
+            "Libra Esterlina para Real", "Peso Argentino para Real", "Peso Chileno para Real"};
     private static double cotacaoDolar = 4.79;
     private static double cotacaoEuro = 5.38;
     private static double cotacaoLibraEsterlina = 6.27;
@@ -39,6 +40,31 @@ public class ConversorDeMoedas {
             case "Real para Peso Chileno" -> {
                 resultado = valor / cotacaoPesoChileno;
                 String mensagem = String.format("Agora você tem $ %.2f pesos chilenos", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Dólar para Real" -> {
+                resultado = valor * cotacaoDolar;
+                String mensagem = String.format("Agora você tem R$ %.2f reais", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Euro para Real" -> {
+                resultado = valor * cotacaoEuro;
+                String mensagem = String.format("Agora você tem R$ %.2f reais", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Libra Esterlina para Real" -> {
+                resultado = valor * cotacaoLibraEsterlina;
+                String mensagem = String.format("Agora você tem R$ %.2f reais", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Peso Argentino para Real" -> {
+                resultado = valor * cotacaoPesoArgentino;
+                String mensagem = String.format("Agora você tem R$ %.2f reais", resultado);
+                JOptionPane.showMessageDialog(null, mensagem);
+            }
+            case "Peso Chileno para Real" -> {
+                resultado = valor * cotacaoPesoChileno;
+                String mensagem = String.format("Agora você tem R$ %.2f reais", resultado);
                 JOptionPane.showMessageDialog(null, mensagem);
             }
         }
