@@ -46,3 +46,4 @@ Já no conversor de temperaturas, é possível:
 
 # 👨‍💻 Desenvolvedor
 
+[<img src="https://avatars.githubusercontent.com/u/56851285?v=4" width=115><br><sub>Anderson Bezerra da Rocha</sub>](https://github.com/ANDERSONROCHA81)
