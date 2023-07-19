@@ -2,4 +2,33 @@
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></h1>
 
-Desafio do conversor de moedas e de temperaturas, proposto pelo programa ONE - Oracle Next Education - Turma 5, em uma parceria da Alura com a Oracle.
+Desafio de projeto de um conversor de moedas e de temperaturas, proposto pelo programa ONE - Oracle Next Education - Turma 5, em uma parceria da Alura com a Oracle.
+
+# Índice 
+
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Contribuidoras](#pessoas-contribuidoras)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Licença](#licença)
+* [Conclusão](#conclusão)
+
+# Descrição do Projeto
+
+Este projeto consta em um simples aplicativo de conversão. Nele, é possível escolher tanto o conversor de moedas quanto o de temperaturas. No conversor de moedas, é possível:
+- Converter de Reais a Dólar
+- Converter de Reais a Euro
+- Converter de Reais a Libras Esterlinas
+- Converter de Reais a Peso argentino
+- Converter de Reais a Peso Chileno
+  
+assim como de forma inversa:
+- Converter de Dólar a Reais
+- Converter de Euro a Reais
+- Converter de Libras Esterlinas a Reais
+- Converter de Peso argentino a  Reais
+- Converter de Peso Chileno a Reais
