@@ -41,4 +41,4 @@ Já no conversor de temperaturas, é possível:
 
 # 👀 Demonstração da Aplicação
 
-file:///home/andersonrocha/Downloads/Grava%C3%A7%C3%A3o-de-tela-de-19-07-2023-17_41_36.gif
+<img src="Gravação-de-tela-de-19-07-2023-17_41_36.gif">
