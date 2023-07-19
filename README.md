@@ -6,13 +6,14 @@ Desafio de projeto de um conversor de moedas 💰️ e de temperaturas 🌡️, 
 
 # 🗂️ Índice 
 
-* [Descrição do Projeto e Funcionalidades](#descrição-do-projeto-e-funcionalidades)
+* [Descrição do Projeto e Funcionalidades](#descrição-do-projeto)
 * [Demonstração da Aplicação](#demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Licença](#licença)
+
 * [Conclusão](#conclusão)
 
 # 🔨 Descrição do Projeto e Funcionalidades
@@ -39,3 +40,6 @@ Já no conversor de temperaturas, é possível:
 - `Converter de Fahrenheit para Celsius`
 - `Converter de Fahrenheit para Kelvin`
 
+# Demonstração da Aplicação
+
+<img src="https://pasteboard.co/rSzOtuQtrT4P.gif"/>
