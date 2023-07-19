@@ -15,7 +15,7 @@ Desafio de projeto de um conversor de moedas 💰️ e de temperaturas 🌡️, 
 * [Licença](#licença)
 * [Conclusão](#conclusão)
 
-# Descrição do Projeto e Funcionalidades
+# 🔨: Descrição do Projeto e Funcionalidades
 
 Este projeto consta em um simples aplicativo de conversão. Nele, é possível escolher tanto o conversor de moedas quanto o de temperaturas. No conversor de moedas, é possível:
 - `Converter de Reais a Dólar`
