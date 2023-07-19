@@ -6,8 +6,8 @@ Desafio de projeto de um conversor de moedas 💰️ e de temperaturas 🌡️, 
 
 # 🗂️ Índice 
 
-* [Descrição do Projeto e Funcionalidades](#descrição-do-projeto-e-funcionalidades)
-* [Demonstração da Aplicação](#demonstração-da-aplicação)
+* [Descrição do Projeto e Funcionalidades]
+* [Demonstração da Aplicação](#👀demonstração-da-aplicação)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 
 # 🔨 Descrição do Projeto e Funcionalidades #
