@@ -44,5 +44,5 @@ Já no conversor de temperaturas, é possível:
 
 # 🧑‍💻 Tecnologias utilizadas
 
-<p><img width=100 src="https://inforchannel.com.br/wp-content/uploads/2021/03/e2d2f80e-java-logo-1.png"><img src="https://img.shields.io/badge/Java-Versão 17-blue"/></p>
-<p><img width=100 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png"></p>
+<p><img width=100 src="https://inforchannel.com.br/wp-content/uploads/2021/03/e2d2f80e-java-logo-1.png">  <img src="https://img.shields.io/badge/Java-Versão 17-blue"/></p>
+<p><img width=100 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png">  <img src="https://img.shields.io/badge/Maven-Versão 4.0.0-blue"/></p>
