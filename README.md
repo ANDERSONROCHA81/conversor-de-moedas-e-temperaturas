@@ -8,7 +8,6 @@ Desafio de projeto de um conversor de moedas 💰️ e de temperaturas 🌡️, 
 
 * [Descrição do Projeto e Funcionalidades](#descrição-do-projeto-e-funcionalidades)
 * [Demonstração da Aplicação](#demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
@@ -42,3 +41,8 @@ Já no conversor de temperaturas, é possível:
 # 👀 Demonstração da Aplicação
 
 <img src="Gravação-de-tela-de-19-07-2023-17_41_36.gif">
+
+# 🧑‍💻 Tecnologias utilizadas
+
+<img width=100 src="https://inforchannel.com.br/wp-content/uploads/2021/03/e2d2f80e-java-logo-1.png"> 
+<img width=100 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png">
